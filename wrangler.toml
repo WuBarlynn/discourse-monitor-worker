@@ -1,4 +1,4 @@
-name = "discourse-monitor"
+name = "discourse-monitor-worker"
 main = "src/index.ts"
 compatibility_date = "2026-08-20"
 
