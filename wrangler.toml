@@ -1,0 +1,11 @@
+name = "discourse-monitor"
+main = "src/index.ts"
+compatibility_date = "2026-08-20"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "discourse-monitor"
+database_id = "替换为 npx wrangler d1 create discourse-monitor 返回的 database_id"
+
+[triggers]
+crons = ["*/5 * * * *"]
